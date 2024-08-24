@@ -2,13 +2,13 @@ a{
     text-decoration: none;
 }
 .upper{
-    display: flex;
-    width: 78%;
+    display: flex; 
+    width: 50%; 
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
 }
 .upper-in{
-    display: flex;
+    display: flex; 
     margin-left: 0%;
     margin-right: auto;
     align-items: center;
@@ -90,7 +90,7 @@ a{
 
 .slider{
     width: 1600px;
-    height: 700px;
+    height: 400px;
     overflow: hidden;
     border: 10px solid rgb(255, 255, 255);
     margin-top: 100px;
@@ -129,10 +129,11 @@ a{
  .slides{
     width: 600%;
     height: 100%;
+
     display: flex;
  }
  .slide{
-    width: 17%;
+    width: 37%;
     transition: all .6s ease;
  }
  .slide img{
